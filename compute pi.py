@@ -9,7 +9,7 @@ total_point = 0
 for i in range(len(random_coords)):
     x = random_coords[i][0]
     y = random_coords[i][1]
-    d = mt.sqrt(x**2+y**2)
+    d = mt.sqrt(x ** 2 + y ** 2)
     total_point += 1
     if d < 1:
         # print("Inside circle")
