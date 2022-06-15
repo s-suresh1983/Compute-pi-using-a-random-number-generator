@@ -12,7 +12,7 @@ for i in range(len(random_coords)):
     d = mt.sqrt(x**2+y**2)
     total_point += 1
     if d < 1:
-        #print("Inside circle")
+        # print("Inside circle")
         in_circle += 1
         # if total_point % 1000 == 0:
         # pi_calc = 4 * in_circle / total_point
